@@ -1,0 +1,186 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    // 추후에 세팅
+    align-items: center;
+    justify-content: flex-start;
+
+    &__a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+
+        P {
+            width: 900px;
+            color: rgb(68, 68, 68);
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+            span:first-child {
+                margin-left: 100px;
+                margin-right: 130px;
+            }
+            span:nth-child(2) {
+                margin-left: 120px;
+            }
+        }
+    }
+    &__a > span {
+        margin-bottom: 50px;
+        font-size: 35px;
+        font-weight: 700;
+        color: rgb(46, 46, 46);
+    }
+    &__a > div {
+        width: 900px;
+        display: flex;
+        justify-content: center;
+        background-color: rgb(248, 248, 248);
+        margin-bottom: 20px;
+        img {
+            margin-right: 100px;
+            margin-left: 100px;
+        }
+    }
+    &__a > p {
+        display: flex;
+    }
+    &__section {
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        font-size: 12px;
+        color: rgb(95, 95, 95);
+
+        p {
+            text-align: center;
+        }
+        &__desc {
+            margin: 24px 0 24px 0;
+
+            a {
+                text-decoration-line: underline;
+            }
+            a:hover {
+                color: black;
+            }
+        }
+    }
+
+    &__section__b {
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+        color: rgb(95, 95, 95);
+    }
+
+    &__section__b > span {
+        font-size: 30px;
+        color: black;
+        font-weight: bold;
+    }
+
+    &__section__b > div {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        span {
+            margin-left: 30px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+        }
+        span:nth-child(2) {
+            font-weight: bold;
+            color: black;
+            font-size: 20px;
+        }
+    }
+    &__section__c {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__section__c > div > div {
+        display: flex;
+    }
+    &__section__c > div > div > div {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+
+        p {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+            border-bottom: 1px solid rgb(190, 190, 190);
+            span {
+                font-size: 14px;
+                color: rgb(82, 82, 82);
+            }
+            span:nth-child(2) {
+                margin-bottom: 20px;
+            }
+            span:first-child {
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 10px;
+                color: black;
+            }
+        }
+    }
+    &__section__c > div > div > div > div {
+        margin-top: 30px;
+        text-align: center;
+        span {
+            font-size: 14px;
+        }
+        span:first-child {
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 15px;
+        }
+        margin-bottom: 30px;
+    }
+    &__section__c__detail {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    &__section__c__detail > span {
+        font-size: 13px;
+        color: rgb(75, 75, 75);
+    }
+
+    &__section__c__detail > span:nth-child(2) {
+        margin-top: 15px;
+        color: black;
+        font-weight: bold;
+    }
+    &__section__c__detail > span:nth-child(n + 3) {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    &__section__c > span {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
