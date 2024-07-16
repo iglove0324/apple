@@ -3,6 +3,7 @@ import styles from "./detail.module.scss";
 import { SiAppletv } from "react-icons/si";
 import { SiApplearcade } from "react-icons/si";
 import { SiApplemusic } from "react-icons/si";
+import { CiDeliveryTruck } from "react-icons/ci";
 import iPhone14 from "@/assets/images/iPhone14.jpg";
 import iPhone15 from "@/assets/images/iPhone15.jpg";
 import iPhone15Pro from "@/assets/images/iPhone15Pro.jpg";
@@ -14,6 +15,8 @@ import pro_b from "@/assets/images/pro_b.jpg";
 import pro_c from "@/assets/images/pro_c.jpg";
 import pro_d from "@/assets/images/pro_d.jpg";
 import pro_e from "@/assets/images/pro_e.jpg";
+import iPhoneBack from "@/assets/images/iPhoneBack.jpg";
+import { PiHandbag } from "react-icons/pi";
 
 // const ProductDetailBlock = styled.div`
 //     color: gray;
@@ -50,6 +53,13 @@ import pro_e from "@/assets/images/pro_e.jpg";
 // const ProductMain = styled.div``;
 
 const ProductDetail = () => {
+    const goCart = (e) => {
+        window.location.href = "/";
+    };
+    const today = new Date();
+    const formattedDate = `${today.getFullYear()}년 ${today.getMonth() + 1}월 ${
+        today.getDate() + 3
+    }일`;
     const iPhone = [
         {
             pic: iPhone15Pro,
@@ -135,7 +145,63 @@ const ProductDetail = () => {
     ];
     return (
         <div className={styles.container}>
-            <section></section>
+            <section className={styles.container__cart}>
+                <div>
+                    <div>
+                        <div>
+                            <span>당신의 새</span>
+                            <span>iPhone15입니다.</span>
+                            <span>당신이 원하는 대로.</span>
+                        </div>
+                        <img src={iPhoneBack} alt="" width="300px"></img>
+                    </div>
+                    <div>
+                        <p>
+                            <span>iPhone15 128GB 그린</span>
+                            <span>₩1,250,000</span>
+                        </p>
+                        <p>
+                            약 ₩113,636의 VAT 포함◊
+                            <a href="">할부 옵션 제공</a>
+                        </p>
+                        <p>
+                            <span>시간이 좀 더 필요하신가요?</span>
+
+                            <span>
+                                선택한 기기를 관심 목록에 모두 저장해두고 언제든
+                                살펴보던 곳부터 다시 이어 보세요.
+                            </span>
+                            <a href="">나중을 위해 저장</a>
+                        </p>
+                        <p>
+                            거주 지역의 배송에 관한 자세한 정보는 '결제'단계에서
+                            볼 수 있습니다.
+                        </p>
+                    </div>
+                    <div>
+                        <div>
+                            <PiHandbag color="black" size="20" />
+                            <p>
+                                <span>픽업:</span>
+
+                                <a href="">재고 확인</a>
+                            </p>
+                        </div>
+                        <div>
+                            <CiDeliveryTruck color="black" size="20" />
+                            <p>
+                                <span>도착:</span>
+
+                                <span>{formattedDate} - 무료배송</span>
+                                <a href="">추가 배송 옵션 확인</a>
+                            </p>
+                        </div>
+                        <div>
+                            <div onClick={goCart}>장바구니에 담기</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className={styles.container__a}>
                 <span>제품 구성</span>
                 <div>

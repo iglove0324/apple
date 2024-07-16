@@ -3,10 +3,169 @@
     display: flex;
     flex-direction: column;
     // 추후에 세팅
+
     align-items: center;
     justify-content: flex-start;
 
+    &__cart {
+        margin-top: 40px;
+        width: 100%;
+        background-color: rgb(248, 248, 248);
+    }
+
+    &__cart > div {
+        margin: 0px auto 0px;
+        width: 1200px;
+        height: 400px;
+        display: flex;
+
+        div {
+            flex: 1;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+    }
+    &__cart > div > div:first-child {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        div {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+
+            span {
+                font-size: 30px;
+                font-weight: bold;
+            }
+            span:last-child {
+                color: gray;
+            }
+        }
+    }
+    &__cart > div > div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        p {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            font-size: 15px;
+        }
+    }
+    &__cart > div > div:nth-child(2) > p:nth-child(1) > span:nth-child(2) {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    &__cart > div > div:nth-child(2) > p:nth-child(2) {
+        font-weight: 600;
+        color: rgb(105, 105, 105);
+        border-bottom: 1px solid rgb(207, 206, 206);
+        a {
+            margin-top: 20px;
+            font-size: 12px;
+            color: rgb(130, 130, 255);
+        }
+        a:hover {
+            text-decoration-line: underline;
+        }
+    }
+    &__cart > div > div:nth-child(2) > p:nth-child(3) {
+        border-bottom: 1px solid rgb(207, 206, 206);
+        font-size: 13px;
+        margin-top: 20px;
+        span {
+            color: gray;
+            font-size: 11px;
+        }
+        a {
+            margin-top: 10px;
+            font-size: 12px;
+            color: rgb(130, 130, 255);
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration-line: underline;
+        }
+    }
+    &__cart > div > div:nth-child(2) > p:nth-child(3) > span:first-child {
+        font-weight: bold;
+        font-size: 13px;
+        margin-bottom: 5px;
+        color: rgb(99, 99, 99);
+    }
+    &__cart > div > div:nth-child(2) > p:nth-child(4) {
+        font-size: 11px;
+        color: gray;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    &__cart > div > div:nth-child(3) {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        span {
+            margin-left: 10px;
+            margin-bottom: 5px;
+        }
+        p {
+            display: flex;
+            flex-direction: column;
+        }
+        a {
+            margin-left: 10px;
+            font-size: 12px;
+            color: rgb(130, 130, 255);
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration-line: underline;
+        }
+    }
+    &__cart > div > div:nth-child(3) > div {
+        display: flex;
+    }
+
+    &__cart > div > div:nth-child(3) > div:nth-child(1),
+    div:nth-child(2) {
+        flex: 1;
+    }
+    &__cart > div > div:nth-child(3) > div:nth-child(3) {
+        color: rgb(255, 255, 255);
+        flex: 4;
+    }
+    &__cart > div > div:nth-child(3) > div:nth-child(3) > div {
+        width: 280px;
+        height: 50px;
+        background-color: rgb(120, 188, 228);
+        font-size: 12px;
+        margin-top: 40px;
+        font-weight: 600;
+        border-radius: 10px;
+        padding: 17px 0;
+        text-align: center;
+    }
+    &__cart > div > div:nth-child(3) > div:nth-child(3) > div:hover {
+        cursor: pointer;
+        background-color: rgb(81, 163, 211);
+        text-decoration-line: underline;
+    }
+    &__cart
+        > div
+        > div:nth-child(3)
+        > div:nth-child(2)
+        > p
+        > span:nth-child(2) {
+        font-weight: 600;
+    }
+
     &__a {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -29,12 +188,14 @@
         }
     }
     &__a > span {
-        margin-bottom: 50px;
+        margin-top: 50px;
+
         font-size: 35px;
         font-weight: 700;
         color: rgb(46, 46, 46);
     }
     &__a > div {
+        margin-top: 50px;
         width: 900px;
         display: flex;
         justify-content: center;
@@ -171,8 +332,8 @@
 
     &__section__c__detail > span:nth-child(2) {
         margin-top: 15px;
-        color: black;
-        font-weight: bold;
+        font-size: 12px;
+        color: rgb(44, 44, 44);
     }
     &__section__c__detail > span:nth-child(n + 3) {
         font-size: 12px;
