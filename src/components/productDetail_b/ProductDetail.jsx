@@ -17,6 +17,8 @@ import pro_d from "@/assets/images/pro_d.jpg";
 import pro_e from "@/assets/images/pro_e.jpg";
 import iPhoneBack from "@/assets/images/iPhoneBack.jpg";
 import { PiHandbag } from "react-icons/pi";
+import { useDispatch } from "react-redux";
+import { addToCart } from "@/store/cart.js";
 
 // const ProductDetailBlock = styled.div`
 //     color: gray;
@@ -53,8 +55,18 @@ import { PiHandbag } from "react-icons/pi";
 // const ProductMain = styled.div``;
 
 const ProductDetail = () => {
-    const goCart = (e) => {
-        window.location.href = "/";
+    const dispatch = useDispatch();
+
+    // 예시로 상품을 장바구니에 추가하는 함수
+    const addToCartHandler = () => {
+        const newItem = {
+            id: 1,
+            name: "iPhone 15",
+            price: 1250000,
+            quantity: 1,
+        };
+        dispatch(addToCart(newItem)); // addToCart 액션을 디스패치합니다.
+        alert("장바구니에 추가되었습니다.");
     };
     const today = new Date();
     const formattedDate = `${today.getFullYear()}년 ${today.getMonth() + 1}월 ${
@@ -197,7 +209,9 @@ const ProductDetail = () => {
                             </p>
                         </div>
                         <div>
-                            <div onClick={goCart}>장바구니에 담기</div>
+                            <div onClick={addToCartHandler}>
+                                장바구니에 담기
+                            </div>
                         </div>
                     </div>
                 </div>

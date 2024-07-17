@@ -30,7 +30,7 @@ const Nav = styled.nav`
     .depth1 {
         display: flex;
         @media screen and (max-width: 800px) {
-            display: block;
+            display: none;
             position: absolute;
             top: 0;
             right: 0;
@@ -123,7 +123,7 @@ const Header = () => {
                     </ul>
                 </Nav>
                 <h1 id="appleIcon">
-                    <NavLink to="/">
+                    <NavLink to="/Cart">
                         <FaCartShopping />
                     </NavLink>
                 </h1>
