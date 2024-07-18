@@ -8,7 +8,7 @@ const ColumnRightBlock = styled.div`
   float: right;
   .btn {
     border-radius: 10px;
-    border: 3px solid #000;
+    border: 1px solid #000;
     background: #fff;
     margin-bottom: 5px;
     cursor: pointer;
@@ -29,9 +29,9 @@ const ColumnRightBlock = styled.div`
     text-align: left;
   }
   .detailinfo {
-    border: 1px solid lightgray;
+   
     margin-top: 20px;
-    background-color: lightgray;
+    background-color: #f3f3f3;
     border-radius: 10px;
   }
   .icon1 {
@@ -58,9 +58,9 @@ const ColumnRightBlock = styled.div`
     font-size: 10px;
   }
   .detailinfo1 {
-    border: 1px solid lightgray;
+    
     margin-top: 20px;
-    background-color: lightgray;
+    background-color: #f3f3f3;
     border-radius: 10px;
   }
   .word3 {
@@ -71,11 +71,12 @@ const ColumnRightBlock = styled.div`
     color: lightgray;
     margin-left: 95px;
   }
+
 `;
 
 const Storage = styled.div`
   .btn2 {
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     background-color: white;
     padding: 20px;

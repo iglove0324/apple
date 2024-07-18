@@ -44,6 +44,7 @@ const Slider1Block = styled.div`
             margin: 0 5px;
             display: inline-block;
             button {
+                color: black;
                 width: 10px;
                 height: 10px;
                 background: gray;
