@@ -1,0 +1,338 @@
+[
+    {
+        "category": "스토어",
+        "subCategory": [
+            {
+                "label": "쇼핑하기",
+                "contents": [
+                    "최신 제품 쇼핑하기",
+                    "Mac",
+                    "iPad",
+                    "iPhone",
+                    "Apple Watch",
+                    "액세서리"
+                ]
+            },
+            {
+                "label":"빠른 링크",
+                "contents":[
+                    "매장 찾기",
+                    "주문 상태",
+                    "Apple Trade In",
+                    "할부 방식"
+                ]
+            },
+            {
+                "label":"특별 할인 쇼핑하기",
+                "contents":[
+                    "인증 리퍼비쉬 제품",
+                    "교육",
+                    "비즈니스"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Mac",
+        "subCategory": [
+            {
+                "label": "Mac 살펴보기",
+                "contents": [
+                    "Mac 모두 살펴보기",
+                    "MacBook Air",
+                    "MacBook Pro",
+                    "iMac",
+                    "Mac Mini",
+                    "Mac Studio",
+                    "Mac Pro",
+                    "디스플레이"
+                ]
+            },
+            {
+                "label":"Mac 쇼핑하기",
+                "contents":[
+                    "Mac 쇼핑하기",
+                    "Mac 액세서리",
+                    "Apple Trade In",
+                    "할부 방식"
+                ]
+            },
+            {
+                "label":"그 외 Mac 관련 항목",
+                "contents":[
+                    "Mac 지원",
+                    "Mac을 위한 AppleCare +",
+                    "macOS Sequoia 미리보기",
+                    "Apple Intelligence",
+                    "Apple이 만든 앱",
+                    "연속성",
+                    "iCloud+",
+                    "Mac과 비즈니스",
+                    "교육"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "iPad",
+        "subCategory": [
+            {
+                "label": "iPad 살펴보기",
+                "contents": [
+                    "iPad 모두 살펴보기",
+                    "iPad Pro",
+                    "iPad Air",
+                    "iPad",
+                    "Mac Studio",
+                    "Apple Pencil",
+                    "키보드"
+                ]
+            },
+            {
+                "label":"iPad 쇼핑하기",
+                "contents":[
+                    "iPad 쇼핑하기",
+                    "iPad 액세서리",
+                    "Apple Trade In",
+                    "할부 방식"
+                ]
+            },
+            {
+                "label":"그 외 iPad 관련 항목",
+                "contents":[
+                    "iPad 지원",
+                    "iPad을 위한 AppleCare +",
+                    "iPadOS 18 미리보기",
+                    "Apple Intelligence",
+                    "Apple이 만든 앱",
+                    "iCloud+",
+                    "교육"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "iPhone",
+        "subCategory": [
+            {
+                "label": "iPhone 살펴보기",
+                "contents": [
+                    "iPhone 모두 살펴보기",
+                    "iPhone 15 Pro",
+                    "iPhone 15",
+                    "iPhone 14",
+                    "iPhone 13",
+                    "iPhone SE"
+                ]
+            },
+            {
+                "label":"iPhone 쇼핑하기",
+                "contents":[
+                    "iPhone 쇼핑하기",
+                    "iPhone 액세서리",
+                    "Apple Trade In",
+                    "할부 방식"
+                ]
+            },
+            {
+                "label":"그 외 iPhone 관련 항목",
+                "contents":[
+                    "iPhone 지원",
+                    "iPhone을 위한 AppleCare +",
+                    "iOS 18 미리보기",
+                    "Apple Intelligence",
+                    "Apple이 만든 앱",
+                    "iPhone의 개인정보보호",
+                    "iCloud+",
+                    "Apple 지갑, Apple Pay",
+                    "Siri"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Watch",
+        "subCategory": [
+            {
+                "label": "Watch 살펴보기",
+                "contents": [
+                    "Apple Watch 모두 살펴보기",
+                    "Apple Watch Series 9",
+                    "Apple Watch Ultra 2",
+                    "Apple Watch SE",
+                    "Apple Watch Nike",
+                    "Apple Watch Hermes"
+                ]
+            },
+            {
+                "label":"Watch 쇼핑하기",
+                "contents":[
+                    "Apple Watch 쇼핑하기",
+                    "Apple Watch Studio",
+                    "Apple Watch 밴드",
+                    "Apple Watch 액세서리",
+                    "Apple Trade In",
+                    "할부 방식"
+                ]
+            },
+            {
+                "label":"그 외 Watch 관련 항목",
+                "contents":[
+                    "Apple Watch 지원",
+                    "AppleCare +",
+                    "watchOS 11 미리보기",
+                    "Apple이 만든 앱"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "AirPods",
+        "subCategory": [
+            {
+                "label": "AirPods 살펴보기",
+                "contents": [
+                    "AirPods 모두 살펴보기",
+                    "AirPods Pro 2세대",
+                    "AirPods 2세대",
+                    "AirPods 3세대",
+                    "AirPods Max"
+                ]
+            },
+            {
+                "label":"AirdPods 쇼핑하기",
+                "contents":[
+                    "AirPods 쇼핑하기",
+                    "AirPods 액세서리"
+                ]
+            },
+            {
+                "label":"그 외 AirPods 관련 항목",
+                "contents":[
+                    "AirPods 지원",
+                    "헤드폰을 위한 AppleCare +",
+                    "Apple Music"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "TV 및 홈",
+        "subCategory": [
+            {
+                "label": "TV 및 홈 살펴보기",
+                "contents": [
+                    "TV 및 홈 살펴보기",
+                    "Apple TV 4K"
+                ]
+            },
+            {
+                "label":"TV 및 홈 쇼핑하기",
+                "contents":[
+                    "Apple TV 4K 쇼핑하기",
+                    "Siri Remote 쇼핑하기",
+                    "TV 및 홈 액세서리"
+                ]
+            },
+            {
+                "label":"그 외 TV 및 홈 관련 항목",
+                "contents":[
+                    "Apple TV 지원",
+                    "AppleCare +",
+                    "Apple TV 앱",
+                    "Apple TV+",
+                    "홈 앱",
+                    "Apple Music",
+                    "Siri",
+                    "AirPlay"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "엔터테인먼트",
+        "subCategory": [
+            {
+                "label": "엔터테인먼트 살펴보기",
+                "contents": [
+                    "엔터테인먼트 살펴보기",
+                    "Apple One",
+                    "Apple TV+",
+                    "Apple Music",
+                    "Apple Arcade",
+                    "Apple Podcasts",
+                    "Apple Books",
+                    "App Store"
+                ]
+            },
+            {
+                "label":"지원",
+                "contents":[
+                    "Apple TV+ 지원",
+                    "Apple Music 지원"
+                ]
+            }         
+        ]
+    },
+    {
+        "category": "액세서리",
+        "subCategory": [
+            {
+                "label": "액세서리 쇼핑하기",
+                "contents": [
+                    "액세서리 모두 쇼핑하기",
+                    "Mac",
+                    "iPad",
+                    "iPhone",
+                    "Apple Watch",
+                    "AirPods",
+                    "TV 및 홈"
+                ]
+            },
+            {
+                "label":"액세서리 살펴보기",
+                "contents":[
+                    "Apple 제작 정품",
+                    "Beats by Dr. Dre",
+                    "AirTag"
+                ]
+            }
+        ]
+    },
+    {
+        "category": "고객지원",
+        "subCategory": [
+            {
+                "label": "지원 상황 살펴보기",
+                "contents": [
+                    "iPhone",
+                    "Mac",
+                    "iPad",
+                    "Watch",
+                    "AirPods",
+                    "Music",
+                    "TV"
+                ]
+            },
+            {
+                "label":"도움 받기",
+                "contents":[
+                    "커뮤니티",
+                    "보장 상태 확인하기",
+                    "수리",
+                    "문의하기"
+                ]
+            },
+            {
+                "label":"유용한 주제",
+                "contents":[
+                    "AppleCare+ 구입하기",
+                    "Apple ID 및 암호",
+                    "청구 및 구독",
+                    "나의 찾기",
+                    "손쉬운 사용"
+                ]
+            }
+        ]
+    }    
+]
